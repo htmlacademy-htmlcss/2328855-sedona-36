@@ -30,7 +30,7 @@
         <form action="#" method="POST">
           <input type="search" placeholder="Поиск:">
         </form>
-        <button class="add" type="button">ХОЧУ СЮДА!</button>
+        <button class="button" type="add">ХОЧУ СЮДА!</button>
       </div>
     </header>
     <main>
@@ -38,44 +38,46 @@
       <section class="about">
         <h2>О нас
           <p><b>Седона — небольшой городок в Аризоне,
-            <br>заслуживающий большего!</b>
-            <br>Рассмотрим причины, по которым Седона круче, чем Гранд-Каньон!</p>
+              <br>заслуживающий большего!</b>
+            <br>Рассмотрим причины, по которым Седона круче, чем Гранд-Каньон!
+          </p>
         </h2>
       </section>
       <section class="advantages">
         <h2><b>Наши преимущества
-          <p>Настоящий</b>
-            <br>
-            городок
-            <br>
-            <b>Седона — не аттракцион для
+            <p>Настоящий
+          </b>
+          <br>
+          городок
+          <br>
+          <b>Седона — не аттракцион для
             <br> туристов, там течёт своя
             <br>жизнь</b>
           </p>
           <p><b>Небольшая
-            <br>
-            площадь</b>
+              <br>
+              площадь</b>
             <br>
             Все достопримечательности
             <br> находятся очень близко
           </p>
           <p><b>Красивая
-            <br>
-            дорога</b>
+              <br>
+              дорога</b>
             <br>
             Ехать в Седону из Лас-Вегаса
             <br>совсем не скучно!
           </p>
           <p><b>Мало
-            <br>
-            туристов</b>
+              <br>
+              туристов</b>
             <br>
             Большинство едет в Гранд
             <br>Каньон и толпится там
           </p>
           <p><b>Там есть
-            <br>
-            мост дьявола</b>
+              <br>
+              мост дьявола</b>
             <br>
             Да, по нему можно пройти!
             <br> Если вы осмелитесь,
@@ -114,16 +116,16 @@
             Укажите предполагаемые даты поездки,
             <br>и мы покажем вам лучшие предложения гостиниц в Седоне
           </p>
-          <p><button class='find_hotel' type='button'>ПОИСК ГОСТИНИЦЫ В СЕДОНЕ</button></p>
+          <p><button class='find_hotel' class='button'>ПОИСК ГОСТИНИЦЫ В СЕДОНЕ</button></p>
           <p>Подпишитесь на рассылку
             <br>Только полезная информация и никакого спама,
             <br> честное бойскаутское!
           </p>
           <p>
-            <form action="#" method="post">
-              <input type="email" placeholder="Ваш E-mail">
-              <button type="submit">Подписаться</button>
-            </form>
+          <form action="#" method="post">
+            <input type="email" placeholder="Ваш E-mail">
+            <button class="button" type="submit">Подписаться</button>
+          </form>
           </p>
         </h2>
         …
@@ -131,13 +133,68 @@
     </main>
     <footer class="main-footer">
       <div>
-        <button type="VK"><img src='./Vector-5.png' alt="VK"></button>
-        <button type="TG"><img src='./Vector.jpg' alt='TG'></button>
-        <button type="YT"><img src='./Vector-2.jpg' alt='YT'></button>
+        <button class="button" type="VK"><img src='./Vector-5.png' alt="VK"></button>
+        <button class="button" type="TG"><img src='./Vector.jpg' alt='TG'></button>
+        <button class="button" type="YT"><img src='./Vector-2.jpg' alt='YT'></button>
         +7 (812) 812-12-12
         <img src='./HTML Academy.jpg'>
       </div>
     </footer>
+    <header>
+      <header class="main-header">
+        <div>
+          <a class="logo" href="#">
+            <img src="img/logo.svg" width="110" height="30" alt="Логотип сайта городка Седона">
+          </a>
+          <nav>
+            <ul class="site-navigation">
+              <li>
+                <a href="about.html">Главная</a>
+              </li>
+              <li>
+                <a href="advantages.html">О Седоне</a>
+              </li>
+              <li>
+                <a href="subscription.html">Гостиницы</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div>
+          <form action="#" method="POST">
+            <input type="search" placeholder="Поиск:">
+          </form>
+          <button class="button" type="add">ХОЧУ СЮДА!</button>
+        </div>
+      </header>
+      <main>
+        <form action="#" method="get">
+          <fieldset>
+            <legend><strong>Гостиницы Седоны</strong></legend>
+            <legend>Стоимость, ₽:</legend>
+            <label>от<input type="text" value="0"></label>
+            <label>до<input type="text" value="9000"></label>
+          </fieldset>
+          <fieldset>
+            <legend>Инфраструктура:</legend>
+            <label><input type="checkbox" name="pool">Бассейн</label>
+            <label><input type="checkbox" name="parking">Парковка</label>
+            <label><input type="checkbox" name="wifi">Wi-Fi</label>
+          </fieldset>
+          <fieldset>
+            <legend>Тип жилья::</legend>
+            <label><input type="checkbox" name="hotel">Гостиница</label>
+            <label><input type="checkbox" name="motel">Мотель</label>
+            <label><input type="checkbox" name="apart">Апартаменты</label>
+          </fieldset>
+          <button class="button" type="apply">Применить</button>
+          <button class="button" type="reset">Cбросить</button>
+        </form>
+      </main>
+      <footer>
+
+      </footer>
+
   </body>
 
 </html>

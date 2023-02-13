@@ -1,21 +1,143 @@
 <!DOCTYPE html>
 <html lang="ru">
+
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Седона</title>
   </head>
+
   <body>
     <header class="main-header">
-      <nav>Главная</nav>
-        <nav>О Седоне</nav>
-        <nav>Гостиницы</nav>
-      </nav>
+      <div>
+        <a class="logo" href="#">
+          <img src="img/logo.svg" width="110" height="30" alt="Логотип сайта городка Седона">
+        </a>
+        <nav>
+          <ul class="site-navigation">
+            <li>
+              <a href="about.html">Главная</a>
+            </li>
+            <li>
+              <a href="advantages.html">О Седоне</a>
+            </li>
+            <li>
+              <a href="subscription.html">Гостиницы</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div>
+        <form action="#" method="POST">
+          <input type="search" placeholder="Поиск:">
+        </form>
+        <button class="add" type="button">ХОЧУ СЮДА!</button>
+      </div>
     </header>
     <main>
-      <!-- Основное содержимое страницы -->
+      <h1>Седона</h1>
+      <section class="about">
+        <h2>О нас
+          <p><b>Седона — небольшой городок в Аризоне,
+            <br>заслуживающий большего!</b>
+            <br>Рассмотрим причины, по которым Седона круче, чем Гранд-Каньон!</p>
+        </h2>
+      </section>
+      <section class="advantages">
+        <h2><b>Наши преимущества
+          <p>Настоящий</b>
+            <br>
+            городок
+            <br>
+            <b>Седона — не аттракцион для
+            <br> туристов, там течёт своя
+            <br>жизнь</b>
+          </p>
+          <p><b>Небольшая
+            <br>
+            площадь</b>
+            <br>
+            Все достопримечательности
+            <br> находятся очень близко
+          </p>
+          <p><b>Красивая
+            <br>
+            дорога</b>
+            <br>
+            Ехать в Седону из Лас-Вегаса
+            <br>совсем не скучно!
+          </p>
+          <p><b>Мало
+            <br>
+            туристов</b>
+            <br>
+            Большинство едет в Гранд
+            <br>Каньон и толпится там
+          </p>
+          <p><b>Там есть
+            <br>
+            мост дьявола</b>
+            <br>
+            Да, по нему можно пройти!
+            <br> Если вы осмелитесь,
+            <br>разумеется
+          </p>
+          <p>Приезжайте в Седону отдохнуть
+            <br> в комфорте и уюте!
+            <br>
+            Опытный персонал и качественное обслуживание!
+          </p>
+          <p>
+            Жильё
+            <br>
+            Рекомендуем пожить
+            <br>в настоящем мотеле,
+            <br>всё как в кино!
+          </p>
+          <p>Еда
+            <br>
+            Всегда заказывайте
+            <br>топовый фирменный бургер,
+            <br>вы не разочаруетесь!
+          </p>
+          <p>Сувениры
+            <br>
+            Не только китайского,
+            <br>но и настоящего местного
+            <br>производства!
+          </p>
+        </h2>
+      </section>
+      <section class="subscription">
+        <h2>Подписка
+          <p>Заинтересовались?
+            <br>
+            Укажите предполагаемые даты поездки,
+            <br>и мы покажем вам лучшие предложения гостиниц в Седоне
+          </p>
+          <p><button class='find_hotel' type='button'>ПОИСК ГОСТИНИЦЫ В СЕДОНЕ</button></p>
+          <p>Подпишитесь на рассылку
+            <br>Только полезная информация и никакого спама,
+            <br> честное бойскаутское!
+          </p>
+          <p>
+            <form action="#" method="post">
+              <input type="email" placeholder="Ваш E-mail">
+              <button type="submit">Подписаться</button>
+            </form>
+          </p>
+        </h2>
+        …
+      </section>
     </main>
     <footer class="main-footer">
-      <!-- Подвал сайта -->
+      <div>
+        <button type="VK"><img src='./Vector-5.png' alt="VK"></button>
+        <button type="TG"><img src='./Vector.jpg' alt='TG'></button>
+        <button type="YT"><img src='./Vector-2.jpg' alt='YT'></button>
+        +7 (812) 812-12-12
+        <img src='./HTML Academy.jpg'>
+      </div>
     </footer>
   </body>
+
 </html>

@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+  <head>
+    <meta charset="utf-8">
+    <title>HTML Academy: Гостиницы</title>
+  </head>
+
+  <body>
+    <header class="main-header">
+      <div>
+        <a class="logo" href="#">
+          <img src="img/logo.svg" width="110" height="30" alt="Логотип сайта городка Седона">
+        </a>
+        <nav>
+          <ul class="site-navigation">
+            <li>
+              <a href="#main">Главная</a>
+            </li>
+            <li>
+              <a href="#about">О Седоне</a>
+            </li>
+            <li>
+              <a href="#hotels">Гостиницы</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div>
+        <form action="#" method="POST">
+          <input type="search" placeholder="Поиск:">
+        </form>
+        <button class="button" type="add">
+          ХОЧУ СЮДА!
+        </button>
+      </div>
+    </header>
+    <main>
+      <form id='hotels' action="#" method="get">
+        <fieldset>
+          <legend>
+            Гостиницы Седоны
+          </legend>
+          <legend>
+            Стоимость, ₽:
+          </legend>
+          <label>
+            от
+            <input type="text" value="0">
+          </label>
+          <label>
+            до
+            <input type="text" value="9000">
+          </label>
+          <p>
+            <progress max="12000" value="9000">
+            </progress>
+          </p>
+        </fieldset>
+        <fieldset>
+          <legend>Инфраструктура:</legend>
+          <label><input type="checkbox" name="pool">
+            Бассейн
+          </label>
+          <label><input type="checkbox" name="parking">
+            Парковка
+          </label>
+          <label><input type="checkbox" name="wifi">
+            Wi-Fi
+          </label>
+        </fieldset>
+        <fieldset>
+          <legend>Тип жилья::</legend>
+          <label><input type="checkbox" name="hotel">
+            Гостиница
+          </label>
+          <label><input type="checkbox" name="motel">
+            Мотель
+          </label>
+          <label><input type="checkbox" name="apart">
+            Апартаменты
+          </label>
+        </fieldset>
+        <button class="button" type="apply">
+          Применить
+        </button>
+        <button class="button" type="reset">
+          Cбросить
+        </button>
+      </form>
+      <h3>
+        <p>Найдено гостиниц: 38</p>
+        <p>Сначала дешевые</p>
+        <p>
+        <div>Amara Resort & Spa</div>
+        <div>Гостиница</div>
+        <div>От 4000 ₽</div>
+        <button class="button" type="подробнее">
+          <img src='./button.svg' alt="подробнее">
+        </button>
+        <button class="button" type="избранное">
+          <img src='./button1.svg' alt="избранное">
+        </button>
+        <div>Рейтинг: 8,5</div>
+        </p>
+        <p>
+        <div>Villas at Poco Diablo</div>
+        <div>Гостиница</div>
+        <div>От 5000 ₽</div>
+        <button class="button" type="подробнее">
+          <img src='./button.svg' alt="подробнее">
+        </button>
+        <button class="button" type="избранное">
+          <img src='./button1.svg' alt="избранное">
+        </button>
+        <div>Рейтинг: 9,2</div>
+        </p>
+        <p>
+        <div>Desert Quail Inn</div>
+        <div>Гостиница</div>
+        <div>От 2500 ₽</div>
+        <button class="button" type="подробнее">
+          <img src='./button.svg' alt="подробнее">
+        </button>
+        <button class="button" type="избранное">
+          <img src='./button1.svg' alt="избранное">
+        </button>
+        <div>Рейтинг: 6,9</div>
+        </p>
+        <p>
+        <div>GreenTree Inn</div>
+        <div>Гостиница</div>
+        <div>От 1500 ₽</div>
+        <button class="button" type="подробнее">
+          <img src='./button.svg' alt="подробнее">
+        </button>
+        <button class="button" type="избранное">
+          <img src='./button1.svg' alt="избранное">
+        </button>
+        <div>Рейтинг: 5,0</div>
+        </p>
+      </h3>
+    </main>
+    <footer class="main-footer">
+      <div>
+        <a href="#" target="_blank" name="VK">
+          <img src='./Vector-5.png' alt="VK">
+        </a>
+        <a href="#" name="TG">
+          <img src='./Vector.jpg' alt='TG'>
+        </a>
+        <a href='#' name="YT">
+          <img src='./Vector-2.jpg' alt='YT'>
+        </a>
+        <a href='#' name='number'>
+          +7 (812) 812-12-12
+        </a>
+        <img src='./HTMLAcademy.jpg' alt="htmlacademy_logo">
+      </div>
+    </footer>
+  </body>
+
+</html>

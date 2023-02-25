@@ -1,0 +1,11 @@
+body {
+  background-image: url("./index-background.jpg");
+}
+#foto1,#foto2{
+  position: relative;
+}
+
+#foto2{
+  top: -440px;
+  left: 371px;
+}

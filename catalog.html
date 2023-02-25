@@ -3,6 +3,7 @@
 
   <head>
     <meta charset="utf-8">
+    <link href="styles/styles.css" rel="stylesheet">
     <title>HTML Academy: Гостиницы</title>
   </head>
 
@@ -10,7 +11,7 @@
     <header class="main-header">
       <div>
         <a class="logo" href="#">
-          <img src="img/logo.svg" width="110" height="30" alt="Логотип сайта городка Седона">
+          <img src="images/logo-2.svg" width="140" height="70" alt="Логотип сайта городка Седона">
         </a>
         <nav>
           <ul class="site-navigation">
@@ -71,13 +72,13 @@
         </fieldset>
         <fieldset>
           <legend>Тип жилья::</legend>
-          <label><input type="checkbox" name="hotel">
+          <label><input type="radio" name="hotel">
             Гостиница
           </label>
-          <label><input type="checkbox" name="motel">
+          <label><input type="radio" name="motel">
             Мотель
           </label>
-          <label><input type="checkbox" name="apart">
+          <label><input type="radio" name="apart">
             Апартаменты
           </label>
         </fieldset>
@@ -90,52 +91,63 @@
       </form>
       <h3>
         <p>Найдено гостиниц: 38</p>
-        <p>Сначала дешевые</p>
+
         <p>
+          <select class="select-control" aria-label="Сортировка">
+            <option value="popular">Сначала популярное</option>
+            <option value="cheap">Сначала дешёвое</option>
+            <option value="expensive">Сначала дорогое</option>
+          </select>
+        </p>
+        <p>
+          <img src="images/hotel-1.jpg" width="300" height="212" alt="Amara Resort & Spa">
         <div>Amara Resort & Spa</div>
         <div>Гостиница</div>
         <div>От 4000 ₽</div>
         <button class="button" type="подробнее">
-          <img src='./button.svg' alt="подробнее">
+          <img src='images/button.svg' alt="подробнее">
         </button>
         <button class="button" type="избранное">
-          <img src='./button1.svg' alt="избранное">
+          <img src='images/button1.svg' alt="избранное">
         </button>
         <div>Рейтинг: 8,5</div>
         </p>
         <p>
+          <img src="images/hotel-2.jpg" width="300" height="212" alt="Villas at Poco Diablo">
         <div>Villas at Poco Diablo</div>
         <div>Гостиница</div>
         <div>От 5000 ₽</div>
         <button class="button" type="подробнее">
-          <img src='./button.svg' alt="подробнее">
+          <img src='images/button.svg' alt="подробнее">
         </button>
         <button class="button" type="избранное">
-          <img src='./button1.svg' alt="избранное">
+          <img src='images/button1.svg' alt="избранное">
         </button>
         <div>Рейтинг: 9,2</div>
         </p>
         <p>
+          <img src="images/hotel-3.jpg" width="300" height="212" alt="Desert Quail Inn">
         <div>Desert Quail Inn</div>
         <div>Гостиница</div>
         <div>От 2500 ₽</div>
         <button class="button" type="подробнее">
-          <img src='./button.svg' alt="подробнее">
+          <img src='images/button.svg' alt="подробнее">
         </button>
         <button class="button" type="избранное">
-          <img src='./button1.svg' alt="избранное">
+          <img src='images/button1.svg' alt="избранное">
         </button>
         <div>Рейтинг: 6,9</div>
         </p>
         <p>
+          <img src="images/hotel-4.jpg" width="300" height="212" alt="GreenTree Inn">
         <div>GreenTree Inn</div>
         <div>Гостиница</div>
         <div>От 1500 ₽</div>
         <button class="button" type="подробнее">
-          <img src='./button.svg' alt="подробнее">
+          <img src='images/button.svg' alt="подробнее">
         </button>
         <button class="button" type="избранное">
-          <img src='./button1.svg' alt="избранное">
+          <img src='images/button1.svg' alt="избранное">
         </button>
         <div>Рейтинг: 5,0</div>
         </p>
@@ -144,18 +156,18 @@
     <footer class="main-footer">
       <div>
         <a href="#" target="_blank" name="VK">
-          <img src='./Vector-5.png' alt="VK">
+          <img src='images/VK.svg' alt="VK">
         </a>
         <a href="#" name="TG">
-          <img src='./Vector.jpg' alt='TG'>
+          <img src='images/TG.svg' alt='TG'>
         </a>
         <a href='#' name="YT">
-          <img src='./Vector-2.jpg' alt='YT'>
+          <img src='images/YT.svg' alt='YT'>
         </a>
         <a href='#' name='number'>
           +7 (812) 812-12-12
         </a>
-        <img src='./HTMLAcademy.jpg' alt="htmlacademy_logo">
+        <img src='images/HTMLAcademy.jpg' width="114.9" height="32.9" alt="htmlacademy_logo">
       </div>
     </footer>
   </body>

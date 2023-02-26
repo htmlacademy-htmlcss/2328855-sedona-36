@@ -1,0 +1,11 @@
+.welcome {
+  background: url("images/index-background.jpg") no-repeat;
+  padding: 51px 0 82px;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+img.foto2 {
+  display: block;
+  margin: 0 auto;
+}

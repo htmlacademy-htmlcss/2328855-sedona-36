@@ -26,6 +26,7 @@ main {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
+  flex-wrap: wrap;
 }
 
 .nav_logo {
@@ -36,14 +37,12 @@ main {
   justify-content: center;
   align-items: center;
   margin: 0 auto;
-  flex-wrap: wrap;
 }
 
 .row_footer {
   justify-content: center;
   align-items: center;
   margin: 0 auto;
-  flex-wrap: wrap;
 }
 
 .search {

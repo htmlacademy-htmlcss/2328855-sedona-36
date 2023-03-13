@@ -26,6 +26,7 @@ main {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
+  flex-wrap: wrap;
 }
 
 .nav_logo {
@@ -90,6 +91,7 @@ nav {
   flex-direction: row;
   align-items: flex-start;
   text-decoration: none;
+  flex-wrap: wrap;
 }
 
 .bold {
@@ -759,6 +761,7 @@ html {
   margin-top: 40px;
   margin: 0 auto;
   max-width: 1060px;
+  flex-wrap: wrap;
 }
 
 .motel_4 {
@@ -772,6 +775,7 @@ html {
   margin-top: 30px;
   margin: 30px auto;
   max-width: 1060px;
+  flex-wrap: wrap;
 }
 
 .bold_1234 {

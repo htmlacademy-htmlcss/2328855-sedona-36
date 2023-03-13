@@ -28,18 +28,20 @@ main {
   align-items: flex-start;
 }
 
+.nav_logo {
+  margin-right: 301px;
+}
+
 .row_nav {
-  justify-content: space-between;
-  margin-left: 70px;
-  margin-right: 70px;
+  justify-content: center;
   align-items: center;
+  margin: 0 auto;
 }
 
 .row_footer {
-  justify-content: space-between;
-  margin-left: 81.67px;
-  margin-right: 70.1px;
+  justify-content: center;
   align-items: center;
+  margin: 0 auto;
 }
 
 .search {
@@ -172,6 +174,7 @@ nav {
   color: #FFFFFF;
   background-size: auto;
   background-position: 0% 10%;
+  margin: 0 auto;
 }
 
 .button_find {
@@ -312,6 +315,9 @@ nav {
   text-align: center;
   text-decoration: none;
   color: #000000;
+  margin-left: 249.17px;
+  justify-content: center;
+  margin-right: 235.5px;
 }
 
 .number:visited {
@@ -327,6 +333,7 @@ nav {
   padding: 51px 0 82px;
   margin-top: -29.05px;
   max-width: 1200px;
+  margin: -29.05px auto;
 }
 
 .sedona,
@@ -443,6 +450,7 @@ html {
   height: 412px;
   background-image: url(/images/background-catalog.jpeg);
   margin-top: -10.05px;
+  margin: -10.05px auto;
 }
 
 .bold_hotels {
@@ -736,6 +744,8 @@ html {
   text-align: center;
   margin-right: 70px;
   margin-left: 70px;
+  max-width: 1060px;
+  margin: 0 auto;
 }
 
 .hotel_123 {
@@ -747,6 +757,8 @@ html {
   margin-right: 70px;
   margin-left: 70px;
   margin-top: 40px;
+  margin: 0 auto;
+  max-width: 1060px;
 }
 
 .motel_4 {
@@ -758,6 +770,8 @@ html {
   margin-right: 70px;
   margin-left: 70px;
   margin-top: 30px;
+  margin: 30px auto;
+  max-width: 1060px;
 }
 
 .bold_1234 {
@@ -876,6 +890,8 @@ html {
   width: 400px;
   height: 60px;
   justify-content: space-between;
+  margin: 40px auto;
+  max-width: 400px;
 }
 
 .one {

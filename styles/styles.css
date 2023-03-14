@@ -797,6 +797,15 @@ html {
   text-align: left;
 }
 
+.img_hotel1,
+.img_hotel2,
+.img_hotel3,
+.img_hotel4 {
+  object-fit: contain;
+  width: 300px;
+  height: 212px;
+}
+
 .price_1234 {
   font-family: 'PT Sans';
   font-style: normal;
